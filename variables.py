@@ -25,6 +25,12 @@ print(bienvenida)
 bienvenida_dos = f"hola {nombre} como estas?"
 print(bienvenida_dos)
 
+#operadores de pertenencia "in" "not in"
+#buscan un valor en concreto y nos regresan u valor booleano
 
+print("moises" in bienvenida)
+#esta linea nos regresa True ya que "moises" si esta en la variable "bienvenida"
 
+print("moises" not in bienvenida)
+#por el contrario esta linea nos regresa False
 
